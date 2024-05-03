@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "NursingCertCredential": {
+      "@id": "https://aniket-aditya.github.io/nursing-context.json#NursingCertCredential"
+    },
+    "name": "schema:name",
+    "email": "schema:email",
+    "district": "schema:Text",
+    "mobile": "schema:telephone",
+    "division": "schema:Text",
+    "facility": "schema:Text",
+    "role": "schema:Text",
+    "facility_type": "schema:Text",
+    "health_worker_id": "schema:Text",
+    "programme_completed": "schema:Text"
+  }
+}
