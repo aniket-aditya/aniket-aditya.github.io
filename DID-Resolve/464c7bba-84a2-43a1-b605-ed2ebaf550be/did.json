@@ -1,0 +1,21 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:aniket-aditya.github.io:DID-Resolve:464c7bba-84a2-43a1-b605-ed2ebaf550be",
+  "alsoKnownAs": ["testUUID", "test@gmail.com"],
+  "service": [],
+  "verificationMethod": [
+    {
+      "id": "did:web:aniket-aditya.github.io:DID-Resolve:464c7bba-84a2-43a1-b605-ed2ebaf550be#key-0",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+      "controller": "did:web:aniket-aditya.github.io:DID-Resolve:464c7bba-84a2-43a1-b605-ed2ebaf550be",
+      "publicKeyMultibase": "z6MkifxvdfL7uv6VZYYGD9vCCwgozVUPELTDpNA2ZWLPe7Es"
+    }
+  ],
+  "authentication": [
+    "did:web:aniket-aditya.github.io:DID-Resolve:464c7bba-84a2-43a1-b605-ed2ebaf550be#key-0"
+  ],
+  "assertionMethod": [
+    "did:web:aniket-aditya.github.io:DID-Resolve:464c7bba-84a2-43a1-b605-ed2ebaf550be#key-0"
+  ]
+}
