@@ -1,0 +1,134 @@
+{
+  credential_issuer: 'http://localhost:8088',
+  credential_endpoint: 'http://localhost:8088/v1/esignet/vci/credential',
+  display: [ { name: 'Nursing Credential', locale: 'en' } ],
+  credentials_supported: [
+    {
+      "format": "ldp_vc",
+      "id": "NursingCertificateCredential",
+      "scope": "nursing_certificate_vc_ldp",
+      "cryptographic_binding_methods_supported": [
+        "did:jwk"
+      ],
+      "cryptographic_suites_supported": [
+        "Ed25519Signature2020"
+      ],
+      "proof_types_supported": [
+        "jwt"
+      ],
+      "credential_definition": {
+        "type": [
+          "VerifiableCredential",
+          "NursingCertificateCredential"
+        ],
+        "credentialSubject": {
+          "name": {
+            "display": [
+              {
+                "name": "Name",
+                "locale": "en"
+              }
+            ]
+          },
+          "mobile": {
+            "display": [
+              {
+                "name": "Phone Number",
+                "locale": "en"
+              }
+            ]
+          },
+          "email": {
+            "display": [
+              {
+                "name": "Email ID",
+                "locale": "en"
+              }
+            ]
+          },
+          "district": {
+            "display": [
+              {
+                "name": "District",
+                "locale": "en"
+              }
+            ]
+          },
+          "division": {
+            "display": [
+              {
+                "name": "Division",
+                "locale": "en"
+              }
+            ]
+          },
+          "facility": {
+            "display": [
+              {
+                "name": "Facility",
+                "locale": "en"
+              }
+            ]
+          },
+          "role": {
+            "display": [
+              {
+                "name": "Role",
+                "locale": "en"
+              }
+            ]
+          },
+          "facility_type": {
+            "display": [
+              {
+                "name": "Facility Type",
+                "locale": "en"
+              }
+            ]
+          },
+          "health_worker_id": {
+            "display": [
+              {
+                "name": "Health Worker ID",
+                "locale": "en"
+              }
+            ]
+          },
+          "programme_completed": {
+            "display": [
+              {
+                "name": "Programme Completed",
+                "locale": "en"
+              }
+            ]
+          }
+        }
+      },
+      "display": [
+        {
+          "name": "Nursing Certificate Verifiable Credential",
+          "locale": "en",
+          "logo": {
+            "url": "https://sunbird.org/images/sunbird-logo-new.png",
+            "alt_text": "a square logo of a Sunbird"
+          },
+          "background_color": "#FDFAF9",
+          "text_color": "#7C4616"
+        }
+      ],
+      "order": [
+        "name",
+        "health_worker_id",
+        "programme_completed",
+        "district",
+        "policyNumber",
+        "division",
+        "facility",
+        "role",
+        "facility_type",
+        "mobile",
+        "email"
+      ]
+    }
+  ]
+}
