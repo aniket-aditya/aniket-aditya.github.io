@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "UTTCertCredential": {
+      "@id": "https://aniket-aditya.github.io/utt-context.json#UTTCertCredential"
+    },
+    "enrollment_id": "schema:Text",
+    "name": "schema:name",
+    "programme_completed": "schema:Text",
+    "completion_date": "schema:DateTime"
+  }
+}
