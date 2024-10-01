@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "MDTCertCredential": {
+      "@id": "https://aniket-aditya.github.io/mdt-context.json#MDTCertCredential"
+    },
+    "registration_id": "schema:Text",
+    "name": "schema:name",
+    "training_completed": "schema:Text",
+    "completion_date": "schema:DateTime"
+  }
+}
