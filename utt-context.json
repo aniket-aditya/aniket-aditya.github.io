@@ -7,9 +7,11 @@
     "UTTCertCredential": {
       "@id": "https://aniket-aditya.github.io/utt-context.json#UTTCertCredential"
     },
-    "enrollment_id": "schema:Text",
     "name": "schema:name",
+    "email": "schema:email",
+    "mobile": "schema:telephone",
+    "enrollment_id": "schema:Text",
     "programme_completed": "schema:Text",
-    "completion_date": "schema:DateTime"
+    "completion_date": "schema:Text"
   }
 }
