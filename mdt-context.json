@@ -7,8 +7,10 @@
     "MDTCertCredential": {
       "@id": "https://aniket-aditya.github.io/mdt-context.json#MDTCertCredential"
     },
-    "registration_id": "schema:Text",
     "name": "schema:name",
+    "email": "schema:email",
+    "mobile": "schema:telephone",
+    "registration_id": "schema:Text",
     "training_completed": "schema:Text",
     "completion_date": "schema:Text"
   }
