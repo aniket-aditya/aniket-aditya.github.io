@@ -10,6 +10,6 @@
     "registration_id": "schema:Text",
     "name": "schema:name",
     "training_completed": "schema:Text",
-    "completion_date": "schema:DateTime"
+    "completion_date": "schema:Text"
   }
 }
