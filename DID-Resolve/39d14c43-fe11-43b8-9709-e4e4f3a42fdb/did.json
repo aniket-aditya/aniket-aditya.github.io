@@ -1,0 +1,31 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:aniket-aditya.github.io:DID-Resolve:39d14c43-fe11-43b8-9709-e4e4f3a42fdb",
+  "alsoKnownAs": ["MDTUUID", "testmdt@gmail.com"],
+  "service": [
+    {
+      "id": "IdentityHub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "@context": "schema.identity.foundation/hub",
+        "@type": "UserServiceEndpoint",
+        "instance": ["did:test:hub.id"]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:aniket-aditya.github.io:DID-Resolve:39d14c43-fe11-43b8-9709-e4e4f3a42fdb#key-0",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+      "controller": "did:web:aniket-aditya.github.io:DID-Resolve:39d14c43-fe11-43b8-9709-e4e4f3a42fdb",
+      "publicKeyMultibase": "z6Mkib4jSGg3vDDL8CLhgP66b9eLbeMLKJgRq44eAUmcCZCp"
+    }
+  ],
+  "authentication": [
+    "did:web:aniket-aditya.github.io:DID-Resolve:39d14c43-fe11-43b8-9709-e4e4f3a42fdb#key-0"
+  ],
+  "assertionMethod": [
+    "did:web:aniket-aditya.github.io:DID-Resolve:39d14c43-fe11-43b8-9709-e4e4f3a42fdb#key-0"
+  ]
+}
